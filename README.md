@@ -11,13 +11,13 @@
 │   ├── problem_3/             # 独立题目仓库的跳转说明
 │   ├── problem_4/             # 独立题目仓库的跳转说明
 │   └── problem_5/
-└── machine_learning/           # 机器学习题（共 6 题）
-    ├── problem_1/
-    ├── problem_2/
-    ├── problem_3/
-    ├── problem_4/
-    ├── problem_5/
-    └── problem_6/
+└── ml/                         # 机器学习题（共 6 题）
+    ├── task0/
+    ├── task1/
+    ├── task2/
+    ├── task3/
+    ├── task4/
+    └── task5/
 ```
 
 ## 独立题目仓库
