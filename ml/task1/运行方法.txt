@@ -1,0 +1,9 @@
+运行方法
+
+1. 完整代码位于 MLP.py，该文件由笔记本文件整理而来。
+2. 分功能实现的代码位于 MLP.ipynb。
+3. 从头训练模式：将 run_mode 参数设置为 train。
+4. 加载模型模式：将 run_mode 参数设置为 load。
+5. 在 MLP.ipynb 中，run_mode 参数位于单元格 0。
+6. 在 MLP.py 中，run_mode 参数位于 main 函数中。
+7. 随机种子为 42。
