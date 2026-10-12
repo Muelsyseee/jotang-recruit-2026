@@ -6,6 +6,27 @@
 - 由 [notebook](MLP.ipynb) 整合得到的完整代码位于 [MLP_code](MLP.py)。
 - 对照实验表格位于 [MLP_对照实验.xlsx](report/MLP_对照实验.xlsx)。
 
+## 依赖包
+
+任务代码依赖以下第三方 Python 包：
+
+- `numpy`
+- `matplotlib`
+- `scikit-learn`
+- `torch`
+
+可使用以下命令安装：
+
+```bash
+pip install numpy matplotlib scikit-learn torch
+```
+
+如需运行 `MLP.ipynb`，还需安装 Jupyter：
+
+```bash
+pip install jupyter
+```
+
 ## 目录结构
 
 ```text

@@ -1,9 +1,52 @@
 运行方法
 
-1. 完整代码位于 MLP.py，该文件由笔记本文件整理而来。
-2. 分功能实现的代码位于 MLP.ipynb。
-3. 从头训练模式：将 run_mode 参数设置为 train。
-4. 加载模型模式：将 run_mode 参数设置为 load。
-5. 在 MLP.ipynb 中，run_mode 参数位于单元格 0。
-6. 在 MLP.py 中，run_mode 参数位于 main 函数中。
-7. 随机种子为 42。
+一、文件说明
+
+1. MLP.py 是由 Notebook 整理得到的完整脚本。
+2. MLP.ipynb 按功能分步展示代码及运行过程。
+
+二、环境与依赖
+
+任务代码依赖以下第三方 Python 包：
+
+- numpy
+- matplotlib
+- scikit-learn
+- torch
+
+安装命令：
+
+pip install numpy matplotlib scikit-learn torch
+
+如需运行 MLP.ipynb，还需安装 Jupyter：
+
+pip install jupyter
+
+三、运行 MLP.py
+
+1. 从头训练模型：
+
+   python MLP.py --mode train
+
+2. 加载已有模型并测试：
+
+   python MLP.py --mode load
+
+3. 如需指定模型文件，可使用 --model-path 参数：
+
+   python MLP.py --mode load --model-path mlp_moons.pth
+
+四、运行 MLP.ipynb
+
+1. 启动 Jupyter：
+
+   jupyter notebook
+
+2. 在浏览器中打开 MLP.ipynb，然后按单元格顺序运行。
+3. run_mode 参数位于单元格 0：设为 train 时从头训练，设为 load 时加载已有模型。
+
+五、其他说明
+
+- 默认模型文件为 mlp_moons.pth。
+- 运行生成的图表保存在 figures/ 目录中。
+- 随机种子为 42。
