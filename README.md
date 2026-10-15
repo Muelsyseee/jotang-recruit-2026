@@ -12,12 +12,12 @@
 │   ├── problem_4/             # 独立题目仓库的跳转说明
 │   └── problem_5/
 └── ml/                         # 机器学习题（共 6 题）
-    ├── task0/
-    ├── task1/
-    ├── task2/
-    ├── task3/
-    ├── task4/
-    └── task5/
+    ├── Jotang-ml-task0/
+    ├── Jotang-ml-task1/
+    ├── Jotang-ml-task2/
+    ├── Jotang-ml-task3/
+    ├── Jotang-ml-task4/
+    └── Jotang-ml-task5/
 ```
 
 ## 独立题目仓库
